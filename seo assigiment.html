@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VIP Gaming Hub | Gaming News, Reviews & Guides</title>
+
+<meta name="description" content="VIP Gaming Hub is your ultimate gaming blog for PUBG, Fortnite, GTA 5 news, reviews, tips, and esports updates.">
+<meta name="keywords" content="gaming blog, pubg guide, fortnite tips, gta 5 tricks, esports news, gaming reviews">
+<meta name="author" content="VIP Gaming Hub">
+
+<!-- SEO FIXES -->
+<link rel="canonical" href="https://vipgaminghub.com/">
+<meta name="robots" content="index, follow">
+
+<!-- OPEN GRAPH -->
+<meta property="og:title" content="VIP Gaming Hub - Gaming News & Guides">
+<meta property="og:description" content="Latest gaming news, reviews, and pro tips for gamers worldwide.">
+<meta property="og:type" content="website">
+
+<!-- FAVICON -->
+<link rel="icon" href="favicon.ico">
+
+<!-- FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
+
+<!-- SCHEMA MARKUP -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "VIP Gaming Hub",
+  "description": "Gaming news, reviews and guides for PUBG, Fortnite, GTA 5 and esports.",
+  "url": "https://vipgaminghub.com/"
+}
+</script>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Orbitron',sans-serif;
+}
+
+body{
+    background:#020617;
+    color:#fff;
+}
+
+/* NAVBAR */
+header{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:#000;
+    border-bottom:2px solid #00f0ff;
+    position:sticky;
+    top:0;
+}
+
+header h1{
+    color:#00f0ff;
+}
+
+nav a{
+    color:#aaa;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    color:#00f0ff;
+}
+
+/* HERO */
+.hero{
+    height:85vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.9)),
+    url('https://images.unsplash.com/photo-1542751371-adc38448a05e');
+    background-size:cover;
+}
+
+.hero h1{
+    font-size:50px;
+    text-shadow:0 0 25px #00f0ff;
+}
+
+.hero p{
+    color:#aaa;
+    margin-top:10px;
+}
+
+/* BLOG SECTION */
+.section{
+    padding:70px 20px;
+    text-align:center;
+}
+
+.blogs{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+}
+
+.blog{
+    width:300px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid #00f0ff;
+    border-radius:15px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.blog:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px #00f0ff;
+}
+
+.blog img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+/* FIX: SEO ALT SUPPORT */
+.blog img{
+    loading:lazy;
+}
+
+.blog h2{
+    margin:10px;
+    font-size:18px;
+    color:#00f0ff;
+}
+
+.blog p{
+    font-size:13px;
+    color:#aaa;
+    padding:0 10px 15px;
+}
+
+/* INFO */
+.info{
+    padding:50px 20px;
+    text-align:center;
+    background:#000;
+}
+
+.info h2{
+    color:#00f0ff;
+    margin-bottom:10px;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#000;
+    color:#777;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .hero h1{
+        font-size:30px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>VIP Gaming Hub</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<!-- HERO (ONLY ONE H1 FIX) -->
+<section class="hero" id="home">
+    <div>
+        <h1>Gaming News & Guides 🎮</h1>
+        <p>Learn • Play • Improve</p>
+    </div>
+</section>
+
+<!-- BLOG -->
+<section class="section" id="blog">
+    <h2>Latest Gaming Articles</h2>
+    <p>Trending guides and gaming tips</p>
+
+    <div class="blogs">
+
+        <div class="blog">
+            <img src="GTA-5-HD-Wallpaper-Free-download.jpg" alt="PUBG pro tips gameplay strategy" loading="lazy">
+            <h2>PUBG Pro Tips</h2>
+            <p>Learn how to survive longer and win more matches in PUBG.</p>
+            <a href="pubg.html" style="color:#00f0ff;">Read More</a>
+        </div>
+
+        <div class="blog">
+            <img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf" alt="Fortnite building tricks gameplay" loading="lazy">
+            <h2>Fortnite Building Tricks</h2>
+            <p>Improve your building speed and gameplay strategy.</p>
+            <a href="fortnite.html" style="color:#00f0ff;">Read More</a>
+        </div>
+
+        <div class="blog">
+            <img src="https://images.unsplash.com/photo-1606813907291-d86efa9b94db" alt="GTA 5 money making guide online" loading="lazy">
+            <h2>GTA 5 Money Guide</h2>
+            <p>Best ways to earn money fast in GTA 5 online.</p>
+            <a href="gta5.html" style="color:#00f0ff;">Read More</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- INFO -->
+<section class="info" id="about">
+    <h2>About VIP Gaming Hub</h2>
+    <p>We provide gaming news, tutorials, and pro tips for gamers around the world.</p>
+</section>
+
+<footer>
+    <h2>© 2026 VIP Gaming Hub | SEO Optimized Gaming Blog</h2>
+</footer>
+
+</body>
+</html>
